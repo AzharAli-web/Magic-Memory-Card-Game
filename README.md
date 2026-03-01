@@ -6,8 +6,7 @@ Match all the cards with the least number of turns and win the game! 🎉
 ---
 
 ## 🚀 Live Demo
-(Add your live link here after deployment)
-
+https://magic-memory-card-game.vercel.app/
 ---
 
 ## 📸 Preview
@@ -15,7 +14,7 @@ Match all the cards with the least number of turns and win the game! 🎉
 ### 🃏 Game Board
 ![Game Board]
  <img src="public/img/card.png" width="45%" />
- 
+
 ### 🎉 Win Screen
 ![Win Screen]
 <img src="public/img/win.png" width="45%" />
@@ -45,3 +44,36 @@ Match all the cards with the least number of turns and win the game! 🎉
 ---
 
 ## 📂 Project Structure
+src/
+├── components/
+│ └── SingleCard.jsx
+├── App.jsx
+├── App.css
+├── SingleCard.css
+└── main.jsx
+
+
+---
+
+## 🧠 Game Logic
+
+- Cards are duplicated and shuffled.
+- Player selects two cards per turn.
+- If cards match → they remain flipped.
+- If cards don't match → they flip back.
+- Game ends when all cards are matched.
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AzharAli-web/Magic-Memory-Card-Game.git
+
+cd magic-memory-card-game
+
+npm install
+
+npm run dev
