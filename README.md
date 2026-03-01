@@ -13,10 +13,12 @@ Match all the cards with the least number of turns and win the game! 🎉
 ## 📸 Preview
 
 ### 🃏 Game Board
-![Game Board](public/img/card.png)
-
+![Game Board]
+ <img src="public/img/card.png" width="45%" />
+ 
 ### 🎉 Win Screen
-![Win Screen](public/img/win.png)
+![Win Screen]
+<img src="public/img/win.png" width="45%" />
 
 ---
 
